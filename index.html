@@ -97,6 +97,13 @@
     .hero{padding:48px 18px 24px;}
     .card-cover{min-height:200px;}
   }
+
+  /* contact */
+  .contact-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px;}
+  .contact-item{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 18px; text-decoration:none; display:block; transition:border-color .15s ease, transform .15s ease;}
+  .contact-item:hover{border-color:var(--accent); transform:translateY(-2px);}
+  .contact-k{display:block; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--soft); margin-bottom:4px;}
+  .contact-v{font-weight:600; font-size:15px; word-break:break-word;}
 </style>
 </head>
 <body>
@@ -247,6 +254,20 @@
             <span class="card-link">Découvrir le programme →</span>
           </div>
         </article></div>
+      </section>
+  
+      <section class="cat" id="contact">
+        <div class="cat-head">
+          <h2>Contact</h2>
+          <p>Une question sur un programme, ou envie d'en parler avant de réserver ? Voici où me trouver.</p>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-item" href="https://wa.me/32475236369?text=Bonjour%20Anthony%2C%20j%27aimerais%20en%20savoir%20plus%20sur%20vos%20programmes%20de%20coaching" target="_blank" rel="noopener"><span class="contact-k">WhatsApp</span><span class="contact-v">+32 475 23 63 69</span></a>
+          <a class="contact-item" href="tel:+32475236369"><span class="contact-k">Téléphone</span><span class="contact-v">0475 23 63 69</span></a>
+          <a class="contact-item" href="mailto:hello@anthonyphilippo.com"><span class="contact-k">Email</span><span class="contact-v">hello@anthonyphilippo.com</span></a>
+          <a class="contact-item" href="https://www.linkedin.com/in/anthonyphilippo" target="_blank" rel="noopener"><span class="contact-k">LinkedIn</span><span class="contact-v">linkedin.com/in/anthonyphilippo</span></a>
+          <a class="contact-item" href="https://anthonyphilippo.com" target="_blank" rel="noopener"><span class="contact-k">Site</span><span class="contact-v">anthonyphilippo.com</span></a>
+        </div>
       </section>
   </div>
   <footer class="site">
